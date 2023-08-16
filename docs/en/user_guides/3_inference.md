@@ -235,7 +235,7 @@ result = inference_model(model, img_path)
 vis_image = show_result_pyplot(model, img_path, result)
 
 # save the visualization result, the output image would be found at the path `work_dirs/result.png`
-vis_iamge = show_result_pyplot(model, img_path, result, out_file='work_dirs/result.png')
+vis_image = show_result_pyplot(model, img_path, result, out_file='work_dirs/result.png')
 
 # Modify the time of displaying images, note that 0 is the special value that means "forever"
 vis_image = show_result_pyplot(model, img_path, result, wait_time=5)
